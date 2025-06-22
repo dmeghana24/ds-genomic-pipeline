@@ -19,7 +19,7 @@ This pipeline is designed to be flexible, reproducible, and easy to adapt for an
 ---
 
 ## 🗂️ Directory Structure
-
+```
 ds-aml-pipeline/
 ├── data/ # Example/test FASTQ, BAM, VCF, counts, methylation (mock/simulated)
 ├── notebooks/ # Jupyter and R notebooks for QC, EDA, visualization
@@ -30,7 +30,7 @@ ds-aml-pipeline/
 ├── env/ # environment.yml and requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
@@ -122,7 +122,7 @@ See the /notebooks/ folder for walkthroughs of analysis and visualization.
 --- 
 
 ## 🔁 Reproducibility
-Sample data: All pipelines can be run end-to-end using the provided mock datasets in /data/
+Sample data: All pipelines can be run end-to-end using the provided mock datasets in '/data/'
 
 Environment management: All requirements specified in /env/environment.yml for easy setup
 
