@@ -122,7 +122,7 @@ See the /notebooks/ folder for walkthroughs of analysis and visualization.
 --- 
 
 ## 🔁 Reproducibility
-Sample data: All pipelines can be run end-to-end using the provided mock datasets in '/data/'
+Sample data: All pipelines can be run end-to-end using the provided mock datasets in '''/data/'''
 
 Environment management: All requirements specified in /env/environment.yml for easy setup
 
