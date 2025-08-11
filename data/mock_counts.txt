@@ -1,0 +1,5 @@
+gene	sample1	sample2
+GATA1	100	130
+RUNX1	50	80
+MEIS1	20	40
+
