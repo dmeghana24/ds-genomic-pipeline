@@ -1,0 +1,19 @@
+name: dsaml_env
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - samtools
+  - bwa
+  - gatk4
+  - star
+  - r-base
+  - r-deseq2
+  - r-methylkit
+  - r-ggplot2
+  - notebook
+  - pandas
+  - numpy
+
