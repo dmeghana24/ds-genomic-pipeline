@@ -1,0 +1,15 @@
+---
+title: "RNA-seq Differential Expression (Mock)"
+output: html_document
+---
+
+```{r}
+library(DESeq2)
+counts <- read.table("../data/mock_counts.txt", header=TRUE, row.names=1)
+condition <- factor(c("case", "control"))
+colData <- data.frame(row.names=colnames(counts), condition)
+dds <- DESeqDataSetFromMatrix(countData=counts, colData=colData, design=~condition)
+dds <- DESeq(dds)
+res <- results(dds)
+plotMA(res)
+

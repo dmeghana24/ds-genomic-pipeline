@@ -1,0 +1,16 @@
+
+**`notebooks/meth_analysis.Rmd`**  
+*(R Markdown, minimal example)*
+```r
+---
+title: "Methylation Analysis (Mock)"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+methyl <- read.table("../results/mock_methyl_results.txt", header=TRUE)
+ggplot(methyl, aes(x=CpG_site, y=methylation_percentage)) + 
+  geom_bar(stat="identity") + 
+  ggtitle("Simulated Methylation")
+
