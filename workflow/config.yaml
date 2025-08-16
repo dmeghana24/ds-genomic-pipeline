@@ -1,0 +1,6 @@
+sample: mock
+wgs_r1: data/mock_wgs_R1.fastq
+wgs_r2: data/mock_wgs_R2.fastq
+rnaseq: data/mock_rnaseq.fastq
+methyl: data/mock_methyl.bam
+
