@@ -1,0 +1,4 @@
+CpG_site	methylation_percentage
+chr21:481123	80
+chr21:481234	60
+
